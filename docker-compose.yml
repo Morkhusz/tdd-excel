@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+    php:
+        image: php-ds
+        volumes:
+            - .:/var/app
+            - ./custom.ini:/usr/local/etc/php/conf.d/custom.ini
+        working_dir: /var/app
+#         networks:
+#             - ds-network
+# networks:
+#     ds-network:
+#         external:
+#             name: cosmos_network
+        

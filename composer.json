@@ -1,0 +1,20 @@
+{
+    "name": "morkhusz/tdd-excel",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Filho",
+            "email": "jose-silvafilho@hotmail.com"
+        }
+    ]
+}
